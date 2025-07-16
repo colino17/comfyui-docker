@@ -1,8 +1,10 @@
-# ComfyUI Docker
+# Description
 
-This is a Docker image for [ComfyUI](https://www.comfy.org/), which makes it extremely easy to run ComfyUI on Linux and Windows WSL2. The image also includes the [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Managergithub ) extension.
+This is a Docker image for [ComfyUI](https://www.comfy.org/), which makes it easy to run ComfyUI using Docker Compose. The image also includes the [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Managergithub ) extension.
 
-## Docker Compose
+## Installation
+
+The image can be installed using the below Docker Compose yaml.
 
 ```yaml
 services:
@@ -32,6 +34,8 @@ services:
 
 ```
 
-## License
+## License and Attribution
+
+This image is forked from [https://github.com/lecode-official/comfyui-docker](https://github.com/lecode-official/comfyui-docker).
 
 The ComfyUI Docker image is licensed under the [MIT License](LICENSE). [ComfyUI](https://github.com/comfyanonymous/ComfyUI/blob/master/LICENSE) and the [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager/blob/main/LICENSE.txt) are both licensed under the GPL 3.0 license.
